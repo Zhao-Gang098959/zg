@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>
+		1.打开终端，通过cd desktop转到desktop
+		2.用mkdir指令，新建文件夹"git"
+		3.通过cd git进入文件夹
+		4.用git init指令初始化本地仓库
+		5.用touch指令 新建文件 index.html
+		6.用git add .上传所有文件
+		7.用git commit -m "注释内容" 提交文件(这时主线生成)
+		8.用git branch piao1(这是支线名称)
+		9.用git checkout piao1 切换到新创建的支线 (可通过git 
+		branch来查看当前所在主线或支线)
+		10.可在支线中新建文件或修改文件，然后提交。这时并不会使主线内容改变。当完成支线任务时，通过git checkout master切回主线
+		11.用git merge piao1来融合主线和支线的内容
+		12.进入github New repository创建新的仓库，然后在新仓库复制链接，在终端中粘贴链接，与本地仓库创建通道。
+		13.之后，可以通过git push origin 
+		master在本地仓库中向github的仓库传文件。(可通过cd 选择文件夹来定义传递文件的区间)
+	</p>
+</body>
+</html>
